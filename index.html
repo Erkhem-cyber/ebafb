@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Facebook Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #dfe3ee;
+        }
+        table {
+            width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-collapse: collapse;
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        th {
+            background-color: #3b5998;
+            color: white;
+            font-size: 24px;
+        }
+        .sidebar {
+            background-color: #f7f7f7;
+            width: 200px;
+            vertical-align: top;
+        }
+        .profile-pic {
+            text-align: center;
+        }
+        .profile-pic img {
+            width: 180px;
+        }
+        .profile-info {
+            text-align: left;
+        }
+        .header {
+            background-color: #3b5998;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .section-title {
+            font-weight: bold;
+            color: #555;
+        }
+        .content-cell {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>thefacebook</h1>
+</div>
+
+<table>
+    <tr>
+        <td class="sidebar">
+            <p><strong>Quick Search</strong></p>
+            <form>
+                <input type="text" name="search" placeholder="Search...">
+                <button type="submit">Go</button>
+            </form>
+            <ul>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">My Groups</a></li>
+                <li><a href="#">My Friends</a></li>
+                <li><a href="#">My Messages</a></li>
+                <li><a href="#">My Away Message</a></li>
+                <li><a href="#">My Mobile Info</a></li>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">My Privacy</a></li>
+            </ul>
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td class="profile-pic" colspan="2">
+                        <img src="profile-pic.jpg" alt="Profile Picture">
+                        <p><a href="#">[edit]</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content-cell">
+                        <div class="section-title">Account Info:</div>
+                        <p><strong>Name:</strong> Scott Pearson, BS</p>
+                        <p><strong>Member Since:</strong> January 12, 2005</p>
+                        <p><strong>Last Update:</strong> February 3, 2005</p>
+                    </td>
+                    <td class="content-cell">
+                        <div class="section-title">Basic Info:</div>
+                        <p><strong>Email:</strong> pearsons2@scranton.edu</p>
+                        <p><strong>Status:</strong> Alumnus/Alumna</p>
+                        <p><strong>Year:</strong> 2004</p>
+                        <p><strong>Concentration:</strong> Computing Sciences, Mathematics</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content-cell">
+                        <div class="section-title">Extended Info:</div>
+                        <p><strong>Screenname:</strong> ScottiePP7</p>
+                        <p><strong>Looking for:</strong> Friendship, Dating, A Relationship, Random Play</p>
+                        <p><strong>Interested In:</strong> Women</p>
+                    </td>
+                    <td class="content-cell">
+                        <div class="section-title">Other Info:</div>
+                        <p><strong>Political Views:</strong> Liberal</p>
+                        <p><strong>Interests:</strong> Drinking, Football, Basketball, Tennis, etc.</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
